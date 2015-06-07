@@ -1,0 +1,13 @@
+cd to current dir;
+
+compile:
+	execute the following command in the linux console;
+	g++ -o testsort TestMerge.cpp  kwaymergesort.cpp TempFile.cpp
+
+test example:
+	./testsort stringfile
+
+	and the target file is sortstring file ,and if you want to print the file result,modify the variable outfile(ofstream) to cout in TestMerge.cpp
+
+describe:
+   you need to modify the  bufferSize according no your max memory limit size;
