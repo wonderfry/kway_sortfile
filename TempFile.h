@@ -38,7 +38,7 @@ private:
 	std::ofstream out;
 
 	/// The buffer size
-	static const unsigned bufferSize = 16384; //存放4k个ID
+	static const unsigned bufferSize = 4096; //4k 
 	/// The write buffer
 	char writeBuffer[bufferSize];
 	/// The write pointer
