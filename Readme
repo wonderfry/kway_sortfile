@@ -11,3 +11,5 @@ test example:
 
 describe:
    you need to modify the  bufferSize according no your max memory limit size;
+   
+   more infomation can be see in my CSDN blog:http://www.cnblogs.com/wonderfry/p/4558668.html
